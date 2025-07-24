@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#malla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Cada semestre es un bloque */
+.semestre {
+  border: 2px solid #ccc;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 100px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+
+.semestre h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Cada ramo es un botón */
+.ramo {
+  display: block;
+  margin: 6px auto;
+  padding: 8px 10px;
+  width: 90%;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Estado: NO APROBADO (rosado) */
+.ramo.pendiente {
+  background-color: #f8c4e3;
+  color: #4a004f;
+}
+
+/* Estado: APROBADO (morado + tachado) */
+.ramo.aprobado {
+  background-color: #a86bbf;
+  color: white;
+  text-decoration: line-through;
+}
+
+/* Estado: BLOQUEADO (gris, sin cursor) */
+.ramo.bloqueado {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  pointer-events: none;
+}
