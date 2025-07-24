@@ -1,0 +1,312 @@
+[
+  {
+    "nombre": "Deporte I",
+    "semestre": 0,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Deporte II",
+    "semestre": 0,
+    "prerequisitos": ["Deporte I"]
+  },
+  {
+    "nombre": "Administración",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Economía",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Matemática",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Comunicación Oral y Escrita I",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Idioma Extranjero I",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Introducción a la Carrera",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Fundamentos de Contabilidad",
+    "semestre": 1,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Comunicación Oral y Escrita II",
+    "semestre": 2,
+    "prerequisitos": ["Comunicación Oral y Escrita I"]
+  },
+  {
+    "nombre": "Idioma Extranjero II",
+    "semestre": 2,
+    "prerequisitos": ["Idioma Extranjero I"]
+  },
+  {
+    "nombre": "Sistema de Información Contable",
+    "semestre": 2,
+    "prerequisitos": ["Fundamentos de Contabilidad"]
+  },
+  {
+    "nombre": "Autogestión del Aprendizaje",
+    "semestre": 3,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Idioma Extranjero III",
+    "semestre": 3,
+    "prerequisitos": ["Idioma Extranjero II"]
+  },
+  {
+    "nombre": "Metodología Contable Específica",
+    "semestre": 3,
+    "prerequisitos": ["Sistema de Información Contable"]
+  },
+  {
+    "nombre": "Introducción al Derecho y Derecho Comercial",
+    "semestre": 3,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Entorno Económico de los Negocios",
+    "semestre": 3,
+    "prerequisitos": ["Economía"]
+  },
+  {
+    "nombre": "Estadística I",
+    "semestre": 3,
+    "prerequisitos": ["Matemática"]
+  },
+  {
+    "nombre": "Cálculo",
+    "semestre": 3,
+    "prerequisitos": ["Matemática"]
+  },
+  {
+    "nombre": "Trabajo en Equipo y Desarrollo de Habilidades Sociales",
+    "semestre": 4,
+    "prerequisitos": ["Autogestión del Aprendizaje"]
+  },
+  {
+    "nombre": "Idioma Extranjero IV",
+    "semestre": 4,
+    "prerequisitos": ["Idioma Extranjero III"]
+  },
+  {
+    "nombre": "Módulo de Integración I",
+    "semestre": 4,
+    "prerequisitos": ["Metodología Contable Específica", "Introducción a la Carrera"]
+  },
+  {
+    "nombre": "Estados Financieros para Decisiones Estratégicas",
+    "semestre": 4,
+    "prerequisitos": ["Metodología Contable Específica"]
+  },
+  {
+    "nombre": "Derecho Laboral",
+    "semestre": 4,
+    "prerequisitos": ["Introducción al Derecho y Derecho Comercial"]
+  },
+  {
+    "nombre": "Optimización",
+    "semestre": 4,
+    "prerequisitos": ["Entorno Económico de los Negocios"]
+  },
+  {
+    "nombre": "Estadística II",
+    "semestre": 4,
+    "prerequisitos": ["Estadística I"]
+  },
+  {
+    "nombre": "Comprensión de Contextos Sociales",
+    "semestre": 5,
+    "prerequisitos": ["Comunicación Oral y Escrita II"]
+  },
+  {
+    "nombre": "Idioma Extranjero V",
+    "semestre": 5,
+    "prerequisitos": ["Idioma Extranjero IV"]
+  },
+  {
+    "nombre": "Diseño y Desarrollo de Sistemas de Información",
+    "semestre": 5,
+    "prerequisitos": ["Sistema de Información Contable"]
+  },
+  {
+    "nombre": "Diagnóstico Financiero",
+    "semestre": 5,
+    "prerequisitos": ["Metodología Contable Específica"]
+  },
+  {
+    "nombre": "Procedimientos de Auditoría",
+    "semestre": 5,
+    "prerequisitos": ["Metodología Contable Específica"]
+  },
+  {
+    "nombre": "Fundamentos de Costos",
+    "semestre": 5,
+    "prerequisitos": ["Metodología Contable Específica"]
+  },
+  {
+    "nombre": "Fundamentos de los Impuestos",
+    "semestre": 5,
+    "prerequisitos": ["Introducción al Derecho y Derecho Comercial"]
+  },
+  {
+    "nombre": "Comprensión de Contextos Culturales",
+    "semestre": 6,
+    "prerequisitos": ["Comprensión de Contextos Sociales"]
+  },
+  {
+    "nombre": "Idioma Extranjero VI",
+    "semestre": 6,
+    "prerequisitos": ["Idioma Extranjero V"]
+  },
+  {
+    "nombre": "Implementación de Sistemas de Información",
+    "semestre": 6,
+    "prerequisitos": ["Diseño y Desarrollo de Sistemas de Información"]
+  },
+  {
+    "nombre": "Valoración de Instrumentos Financieros",
+    "semestre": 6,
+    "prerequisitos": ["Diagnóstico Financiero"]
+  },
+  {
+    "nombre": "Control Interno",
+    "semestre": 6,
+    "prerequisitos": ["Procedimientos de Auditoría"]
+  },
+  {
+    "nombre": "Costos para Decisiones Estratégicas",
+    "semestre": 6,
+    "prerequisitos": ["Fundamentos de Costos"]
+  },
+  {
+    "nombre": "Aplicación de los Impuestos",
+    "semestre": 6,
+    "prerequisitos": ["Fundamentos de los Impuestos"]
+  },
+  {
+    "nombre": "Ética y Responsabilidad Social",
+    "semestre": 7,
+    "prerequisitos": ["Comprensión de Contextos Culturales", "Trabajo en Equipo y Desarrollo de Habilidades Sociales"]
+  },
+  {
+    "nombre": "Valor Económico e Inversión Real",
+    "semestre": 7,
+    "prerequisitos": ["Valoración de Instrumentos Financieros"]
+  },
+  {
+    "nombre": "Auditoría Financiera",
+    "semestre": 7,
+    "prerequisitos": ["Control Interno"]
+  },
+  {
+    "nombre": "Gestión de Recursos Humanos",
+    "semestre": 7,
+    "prerequisitos": ["Administración"]
+  },
+  {
+    "nombre": "Planificación Tributaria",
+    "semestre": 7,
+    "prerequisitos": ["Aplicación de los Impuestos"]
+  },
+  {
+    "nombre": "Formulación e Implementación Estratégica",
+    "semestre": 7,
+    "prerequisitos": ["Costos para Decisiones Estratégicas"]
+  },
+  {
+    "nombre": "Responsabilidad Social",
+    "semestre": 8,
+    "prerequisitos": ["Ética y Responsabilidad Social"]
+  },
+  {
+    "nombre": "Módulo de Integración II",
+    "semestre": 8,
+    "prerequisitos": ["Valor Económico e Inversión Real", "Módulo de Integración I"]
+  },
+  {
+    "nombre": "Auditorías de Sistemas",
+    "semestre": 8,
+    "prerequisitos": ["Auditoría Financiera", "Implementación de Sistemas de Información"]
+  },
+  {
+    "nombre": "Valoración de Activos",
+    "semestre": 8,
+    "prerequisitos": ["Valor Económico e Inversión Real"]
+  },
+  {
+    "nombre": "Auditorías y Reclamaciones Tributarias",
+    "semestre": 8,
+    "prerequisitos": ["Planificación Tributaria"]
+  },
+  {
+    "nombre": "Sistemas de Control de Gestión",
+    "semestre": 8,
+    "prerequisitos": ["Formulación e Implementación Estratégica"]
+  },
+  {
+    "nombre": "Formulación y Evaluación de Proyectos",
+    "semestre": 9,
+    "prerequisitos": ["Valor Económico e Inversión Real"]
+  },
+  {
+    "nombre": "Gestión Estratégica de Sistemas de Información",
+    "semestre": 9,
+    "prerequisitos": ["Auditorías de Sistemas"]
+  },
+  {
+    "nombre": "Control de Gestión Estratégica",
+    "semestre": 9,
+    "prerequisitos": ["Sistemas de Control de Gestión"]
+  },
+  {
+    "nombre": "Gestión de Procesos de Negocios",
+    "semestre": 9,
+    "prerequisitos": ["Formulación e Implementación Estratégica"]
+  },
+  {
+    "nombre": "Electivo Profesional",
+    "semestre": 10,
+    "prerequisitos": ["Módulo de Integración II"]
+  },
+  {
+    "nombre": "Proyecto de Memoria",
+    "semestre": 10,
+    "prerequisitos": ["Módulo de Integración II"]
+  },
+  {
+    "nombre": "Control de Proyectos",
+    "semestre": 10,
+    "prerequisitos": ["Formulación y Evaluación de Proyectos"]
+  },
+  {
+    "nombre": "Marketing Estratégico",
+    "semestre": 10,
+    "prerequisitos": ["Formulación e Implementación Estratégica"]
+  },
+  {
+    "nombre": "Electivo Profesional II",
+    "semestre": 11,
+    "prerequisitos": []
+  },
+  {
+    "nombre": "Memoria",
+    "semestre": 11,
+    "prerequisitos": ["Proyecto de Memoria"]
+  }
+]
